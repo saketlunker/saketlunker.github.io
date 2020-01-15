@@ -58,6 +58,16 @@ h1 {
   padding-top: 3rem;
 }
 
+b {
+	font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+hr {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
 body {
 	background-color: #32b643;
   padding: 0px;
@@ -66,9 +76,9 @@ body {
 }
 
 #gradient {
-  background: linear-gradient(-45deg,#3cb643, #39aa3f, #09d272, #29d0a1, #0aa6be, #9dbdd8);
-  background-size: 1000% 1000%;
-  animation: Gradient 30s ease infinite;
+  background: linear-gradient(-45deg, black, red, Orange, yellow, green, blue, indigo, violet, white);
+  background-size: 10000% 10000%;
+  animation: Gradient 86s ease infinite;
 }
 
 @keyframes Gradient {
