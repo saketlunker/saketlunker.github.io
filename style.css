@@ -76,9 +76,9 @@ body {
 }
 
 #gradient {
-  background: linear-gradient(-45deg, black, red, Orange, yellow, green, blue, indigo, violet, white);
+  background: linear-gradient(-45deg, red, red, orange, orange, gold, green, blue, indigo, violet, violet);
   background-size: 10000% 10000%;
-  animation: Gradient 86s ease infinite;
+  animation: Gradient 72s ease infinite;
 }
 
 @keyframes Gradient {
