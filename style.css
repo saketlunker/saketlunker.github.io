@@ -144,6 +144,10 @@ p {
 	font-size: 10pt;
 }
 
+#mediumtext {
+	font-size: 15pt;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 4rem;
