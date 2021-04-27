@@ -26,6 +26,7 @@ h1 {
   margin-left: 5%;
   margin-right: 5%;
   padding-top: 5%;
+	text-align:center;
 }
 
 hr {
@@ -40,9 +41,9 @@ body {
 }
 
 #gradient {
-  background: linear-gradient(-45deg, #FFF5EE, #FFD2A7, #FFCBA4, #FFE5B4, #FFFABC, #FFFFCC, #D4FFD4, #CCFFFF, #F0F8FF, #E5E4E3);
+  background: linear-gradient(-45deg, white, #FFF5EE, #FFD2A7, #FFCBA4, #FFE5B4, #FFFABC, #FFFFCC, #D4FFD4, #CCFFFF, #F0F8FF, #E5E4E3, white);
   background-size: 10000% 10000%;
-  animation: Gradient 36s ease infinite;
+  animation: Gradient 100s ease infinite;
 }
 
 @keyframes Gradient {
@@ -50,10 +51,10 @@ body {
 		background-position: 0% 50%
 	}
 	50% {
-		background-position: 100% 50%
+		background-position: 100% 100%
 	}
 	100% {
-		background-position: 0% 50%
+		background-position: 50% 0%
   }
 }
 
@@ -69,7 +70,6 @@ a:hover {
 	opacity: 0.5;
 }
 
-
 p {
   font-size: 1.4rem;
   padding-top: 1rem;
@@ -77,6 +77,7 @@ p {
   line-height: 1.7rem;
   margin-left: 5%;
   margin-right: 5%;
+	text-align:center;
 }
 
 #gradient
