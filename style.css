@@ -63,6 +63,7 @@ body {
     #D4FFD4, /* Light Green */
     #F0F8FF, /* Alice Blue */
     white);
+  background-size: 10000% 10000%;
   animation: Gradient 100s ease infinite;
 }
 
