@@ -51,8 +51,18 @@ body {
 }
 
 #gradient {
-  background: linear-gradient(-45deg, white, #FFF5EE, #FFD2A7, #FFCBA4, #FFE5B4, #FFFABC, #FFFFCC, #D4FFD4, #CCFFFF, #F0F8FF, #E5E4E3, white);
-  background-size: 10000% 10000%;
+  background: linear-gradient(-45deg,
+    #E3F2FD, /* Lavender Blush */
+    #CCFFFF, /* Pale Cyan */
+    #FFF8DC, /* Cornsilk */
+    #FFFAF0, /* Ivory */
+    #FFEBE6, /* Peach Puff */
+    #FFFFCC, /* Light Yellow */
+    #FAFFD1, /* Lemon Chiffon */
+    #FFEBCD, /* Blanched Almond */
+    #D4FFD4, /* Light Green */
+    #F0F8FF, /* Alice Blue */
+    white);
   animation: Gradient 100s ease infinite;
 }
 
