@@ -50,6 +50,11 @@ body {
   color: #010101;
 }
 
+/* Using ID selector */
+#specific-link {
+  text-decoration: none;
+}
+
 #gradient {
   background: linear-gradient(-45deg,
     #E3F2FD, /* Lavender Blush */
